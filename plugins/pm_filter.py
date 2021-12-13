@@ -374,7 +374,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('മൂവി ഞാൻ നിങ്ങളുടെ  പിഎമ്മിൽ   സെന്റ്  ചെയ്തട്ടുണ്ട്🤠,Check PM, I have sent files in pm🤠',show_alert = True)
+                await query.answer('Song ഞാൻ നിങ്ങളുടെ  പിഎമ്മിൽ   സെന്റ്  ചെയ്തട്ടുണ്ട്🤠,Check PM, I have sent files in pm🤠',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -413,7 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Proffeser_Z_bot?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/annaben_updates'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Z_Bots'),
             InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='source')
             ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
@@ -784,7 +784,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply('Ningal chodicha movie ude correct ayittulla name thazhekaanunna correct ayittulla button click cheyyu click cheyyu🤠, I cant find anything related to that\nDid you mean any one of these?🤠', reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply('Ningal chodicha song ude correct ayittulla name thazhekaanunna correct ayittulla button click cheyyu click cheyyu🤠, I cant find anything related to that\nDid you mean any one of these?🤠', reply_markup=InlineKeyboardMarkup(btn))
     
 
 
