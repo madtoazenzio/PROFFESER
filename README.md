@@ -108,13 +108,13 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/Pro_editor_tg)
+Contact Me On [Telegram](https://t.me/Team_Proffesser)
 
-[Update Channel](https://t.me/Team_annaben)
+[Update Channel](https://t.me/Team_Proffesser)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
 ## credit 🤠
-https://t.me/Team_Proffesser
+Team Annaben
 
 Me To Making 😉
